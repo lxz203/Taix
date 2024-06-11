@@ -1,0 +1,30 @@
+[versions]
+agp = "8.4.0"
+kotlin = "1.9.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+appcompat = "1.6.1"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+#fragmentUtils工具
+roomKtx = "2.5.1"
+roomRuntime = "2.5.1"
+utilcode = "1.30.7"
+#列表adapter工具
+baseRecyclerViewAdapterHelper = "3.0.4"
+[libraries]
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+utilcode = {group = "com.blankj",name = "utilcode", version.ref = "utilcode" }
+baseRecyclerViewAdapterHelper = {group = "com.github.CymChad",name = "BaseRecyclerViewAdapterHelper", version.ref  = "baseRecyclerViewAdapterHelper" }
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

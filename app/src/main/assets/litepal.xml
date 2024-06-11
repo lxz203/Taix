@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="TakeData" />
+    <version value="5" />
+    <list>
+        <mapping class="com.example.takeataxiproject.litepal.User" />
+        <mapping class="com.example.takeataxiproject.litepal.OrderBean" />
+        <mapping class="com.example.takeataxiproject.litepal.MessageBean" />
+    </list>
+
+</litepal>
